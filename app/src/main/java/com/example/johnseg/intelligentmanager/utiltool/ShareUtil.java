@@ -58,6 +58,13 @@ public class ShareUtil {
 
     }
 
+    public static void deleteShare(Context context,String key)
+    {
+        SharedPreferences sp=context.getSharedPreferences(NAME,Context.MODE_PRIVATE);
+        sp.edit().remove(key);
+
+    }
+
 
 
 }

@@ -36,7 +36,7 @@ public class FlashActivity extends AppCompatActivity{
                 }
                 else
                 {
-                    Intent intent = new Intent(FlashActivity.this, MainActivity.class);
+                    Intent intent = new Intent(FlashActivity.this, LoginActivity.class);
                     startActivity(intent);
                 }
             }

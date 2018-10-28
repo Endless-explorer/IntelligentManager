@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 
 import com.example.johnseg.intelligentmanager.adapter.FragmentAdapter;
+import com.example.johnseg.intelligentmanager.dialog.JudgmentDialog;
 import com.example.johnseg.intelligentmanager.fragment.Fragment_1;
 import com.example.johnseg.intelligentmanager.fragment.Fragment_2;
 import com.example.johnseg.intelligentmanager.fragment.Fragment_3;
@@ -44,6 +45,8 @@ public class MainActivity extends BasicActivity {
 
     private void initData()
     {
+        JudgmentDialog judgmentDialog=new JudgmentDialog(this,"社会调查","小甜甜喜欢磕屁吗？");
+        judgmentDialog.show();
 
         titlelist=new ArrayList<>();
         fragmentList=new ArrayList<>();
