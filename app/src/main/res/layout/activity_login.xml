@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    >
 
     <ImageView
         android:layout_width="wrap_content"
@@ -13,10 +14,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/user_login"
         android:hint="用户名:"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/pass_login"
+        android:inputType="textPassword"
         android:hint="密码:"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +31,7 @@
             android:layout_height="wrap_content"
             android:textColor="#FFD23E90"
             android:text="记住密码"
+            android:id="@+id/check_password"
             android:layout_gravity="right"
             />
 
@@ -34,15 +39,17 @@
     <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape"
         android:textColor="#fff"
+        android:id="@+id/btn_login"
     android:text="登录"/>
     <Button
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/shape"
         android:textColor="#fff"
+        android:id="@+id/btn_reg"
         android:text="注册"/>
 
 

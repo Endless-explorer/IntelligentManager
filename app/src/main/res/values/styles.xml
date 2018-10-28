@@ -8,4 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="JudgmentDialogTheme" parent="@android:style/Theme.Dialog">
+        <!--背景色-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无边框-->
+        <item name="android:fragment">@null</item>
+        <!--窗口是否浮动-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊背景-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
 </resources>
